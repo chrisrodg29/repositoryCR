@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Project0Maven</groupId>
+  <artifactId>Project0Maven</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  	<junit.jupiter.version>5.6.0</junit.jupiter.version>
+  
+  </properties>
+  <dependencies>
+ <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.11.2</version>
+</dependency>
+  <!-- local ojdbc8 dependency -->
+<dependency>
+    <groupId>com.oracle.jdbc</groupId>
+    <artifactId>ojdbc8</artifactId>
+    <version>12.2.0.1</version>
+    <scope>system</scope>
+    <systemPath>C:\javaprograms\Project0\Project0Maven\localdependencies\ojdbc8.jar</systemPath>   
+</dependency>
+  <!-- JUNIT 5 dependency -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <version>5.6.0</version>
+    <scope>test</scope>
+</dependency>
+  
+  </dependencies>
+</project>
